@@ -15,7 +15,7 @@
 const agus = {
     pronouns: "He" | "Him",
     code: ["Javascript", "PHP", "HTML", "CSS"],
-    tools: ["React", "Bootstrap", "Git"]
+    tools: ["React", "Bootstrap", "Git"],
     askMeAbout: ["web dev", "tech", "app dev", "basketball"],
     technologies: {
         backEnd: {
@@ -50,6 +50,7 @@ const agus = {
 <!-- <h4 align="center">
   <a href="https://github.com/Auchan22?tab=repositories" title="Mostrar Repositorios">🔎 Show More 🔍</a>
 </h4> -->
+<br>
 <br>
 <br>
 <br>
