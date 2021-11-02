@@ -21,9 +21,6 @@ const agus = {
         backEnd: {
             js: ["Node", ...proximamente]
         },
-<!--         mobileApp: {
-            native: ["Android Development", "IOS Development"] -->
-        },
         databases: "MySql",
         misc: ["Firebase", "php"]
     },
