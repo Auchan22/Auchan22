@@ -4,28 +4,51 @@
 <p><em>Frontend Developer Jr. autodidacta, en busqueda de nuevas oportunidades! <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/SurilaAgus?label=Follow)](https://twitter.com/intent/follow?screen_name=SurilaAgus)
-[![Linkedin: Agustin Surila Soto](https://img.shields.io/badge/-anmol-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/agustín-surila-soto-80b29b1b5//)](https://www.linkedin.com/in/agustín-surila-soto-80b29b1b5//)
+[![Twitter Follow](https://img.shields.io/badge/-Follow-white?style=for-the-badge&logo=Twitter&logoColor=blue?label=Follow&link=https://twitter.com/intent/follow?screen_name=SurilaAgus)](https://twitter.com/intent/follow?screen_name=SurilaAgus)
+[![Linkedin: Agustin Surila Soto](https://img.shields.io/badge/-Agus%20Surila-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/agustín-surila-soto-80b29b1b5//)](https://www.linkedin.com/in/agustín-surila-soto-80b29b1b5//)
 ![GitHub followers](https://img.shields.io/github/followers/Auchan22?label=Follow&style=social)
 <!-- [![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://anmolsingh.me/)](https://anmolsingh.me/)
 ![](https://visitor-badge.glitch.me/badge?page_id=anmol098.anmol098) -->
 
-
 ```javascript
-const agus = {
-    pronouns: "He" | "Him",
-    code: ["Javascript", "PHP", "HTML", "CSS"],
-    tools: ["React", "Bootstrap", "Git"],
-    askMeAbout: ["web dev", "tech", "app dev", "basketball"],
-    technologies: {
-        backEnd: {
-            js: ["Node", ...proximamente]
-        },
-        databases: "MySql",
-        misc: ["Firebase", "php"]
-    },
-    currentFocus: "Frontend Development",
+class User {
+    constructor(props){
+        this.nombre = props.nombre;
+        this.apellido = props.apellido;
+        this.localidad = props.localidad;
+        this.conocimientos = props.conocimientos;
+    };
+    
+    get conocimientos(){
+        return this.conocimientos;
+    };
 };
+
+const conocimientos =[
+    {
+        type: 'Frontend',
+        Items: ['HTML5', 'CSS', 'Javascript','Bootsrap', 'Chakra UI', 'React JS']
+    },
+    {
+        type: 'Backend',
+        Items: ['NodeJs', 'MongoDB', 'MySQL', 'Express'],
+    },
+    {
+        type: 'Idiomas',
+        Items: ['Ingles', 'Español']
+    },
+    {
+        type: 'Adicionales',
+        Items: ['Git', 'JSON', 'Typescript']
+    },
+    ];
+
+
+const Agus = new User({
+    nombre: 'Agustín',
+    apellido: 'Surila Soto',
+    localidad: 'Berisso, Buenos Aires, Argentina',
+})
 ```
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>No tengas miedo en agregarme, no muerdo</b> <img src="https://media.giphy.com/media/UTw9wnoyP8Pcs/giphy.gif?cid=ecf05e475s18lkiw0x9rosdpaqv42qwlob2xtzr6r8p75o44&rid=giphy.gif&ct=g" width="60"></em>
